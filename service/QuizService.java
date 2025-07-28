@@ -7,7 +7,7 @@ public class QuizService {
     private int score = 0;
 
     public boolean checkAnswer(Question question, int userAnswer){
-        if(userAnswer == question.getCorrectOptionIndex()){
+        if(userAnswer == question.getCorrectOptionIndex() + 1){
             score++;
             return true;
         }

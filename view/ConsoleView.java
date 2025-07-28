@@ -18,7 +18,7 @@ public class ConsoleView {
     }
 
     public void showQuestion(Question question, int questionNumber){
-        System.out.println("\nQ" + (questionNumber+1) + question.getQuestionText());
+        System.out.println("\nQ" + (questionNumber+1) + ". " + question.getQuestionText());
         List<String> options = question.getOptions();
 
         for(int i=0; i<options.size(); i++){
