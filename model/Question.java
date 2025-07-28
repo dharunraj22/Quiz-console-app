@@ -21,7 +21,7 @@ public class Question {
         return options;
     }
 
-    public int getAnswer() {
+    public int getCorrectOptionIndex() {
         return answer;
     }
 

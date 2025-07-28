@@ -17,7 +17,7 @@ public class ConsoleView {
         System.out.println("--------------------");
     }
 
-    public void showQuestions(Question question, int questionNumber){
+    public void showQuestion(Question question, int questionNumber){
         System.out.println("\nQ" + (questionNumber+1) + question.getQuestionText());
         List<String> options = question.getOptions();
 
